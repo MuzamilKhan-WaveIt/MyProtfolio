@@ -26,7 +26,7 @@ class _LandingPageState extends State<LandingPage> {
           alignment: Alignment.center,
           decoration: BoxDecoration(
               gradient: LinearGradient(
-            colors: [const Color(0xff213A50), const Color(0xff071930)],
+            colors: [Color.fromARGB(255, 1, 27, 49), Color.fromARGB(255, 13, 37, 70)],
           )),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
