@@ -26,7 +26,10 @@ class _LandingPageState extends State<LandingPage> {
           alignment: Alignment.center,
           decoration: BoxDecoration(
               gradient: LinearGradient(
-            colors: [Color.fromARGB(255, 1, 27, 49), Color.fromARGB(255, 13, 37, 70)],
+            colors: [
+              Color.fromARGB(255, 1, 27, 49),
+              Color.fromARGB(255, 13, 37, 70)
+            ],
           )),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -188,6 +191,56 @@ class _LandingPageState extends State<LandingPage> {
                       fontSize: 22,
                       fontWeight: FontWeight.bold),
                 ),
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "DigiAccess",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500),
+                  ),
+                  Text(
+                    "Application that helps illiterates to gain some knowledge about Health, Agriculture, Education and buy some books related to it.",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400),
+                  ),
+                  Text(
+                    "Tools: Dart, Flutter, Node.JS(Admin Backend), React.JS(Admin Frontend)",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w200),
+                  ),
+                  SizedBox(height: 20),
+                  Text(
+                    "ShoeSha",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500),
+                  ),
+                  Text(
+                    "Ecommerce Application to buy some shoes.",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400),
+                  ),
+                  Text(
+                    "Tools: Dart, Flutter",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w200),
+                  ),
+                  SizedBox(height: 20),
+                ],
               ),
               SizedBox(
                 height: 20,
